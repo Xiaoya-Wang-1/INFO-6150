@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="./Cat-logo.png" alt="Cat logo">
+        <h1>Welcome to Registration Page</h1>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <form action="/submit" method="POST">
+            <div class="form-row input-frist">
+                <!-- name -->
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="text" required>
+            </div>
+            <!-- email -->
+            <div class="form-row input-frist">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <!-- drop down -->
+            <div class="form-row input-frist select-box">
+                <label for="tier">Select Tier: </label>
+                <select id="tier" name="tier" required>
+                    <option value="">Please select</option>
+                    <option value="1">Silver Tier</option>
+                    <option value="2">Gold Tier</option>
+                    <option value="3">Platinum Tier</option>
+                </select>
+            </div>
+            <!-- checkbox -->
+            <div class="form-row annoy-me">
+                <input type="checkbox" id="annoy-me" name="annoy-me" checked required></input>
+                <label for="annoy-me">Do you want us to send you annoying emails?</label>
+            </div>
+            <!-- submit button -->
+            <div class="form-row">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <a href="#">Privacy Policy</a>
+    </footer>
+
+</body>
+
+</html>

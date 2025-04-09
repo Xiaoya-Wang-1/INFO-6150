@@ -1,0 +1,172 @@
+/* General styling for body and homepage container */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: grid;
+    gap: 0;
+    grid-template-rows: auto 1fr auto;
+    background-color: #F5F5F7;
+    height: 100vh;
+}
+
+/*  Header Section */
+header {
+    font-family: Trebuchet MS, sans-serif;
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    background-color: #EDDFE0;
+    align-items: center;
+    gap: 1rem;
+}
+
+header img {
+    img {
+        width: auto;
+        height: auto;
+    }
+}
+
+header h1 {
+    color: #655750;
+    font-size: 1.5rem;
+
+}
+
+/*  Main Section */
+main {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main form {
+    display: flex;
+    border: 1px solid #564942;
+    height: max-content;
+    padding: 2rem;
+    gap: 2rem;
+    font-size: 1rem;
+    flex-direction: column;
+    padding-top: 3.5rem;
+    align-items: flex-start;
+    color: #564942;
+}
+
+main input {
+    background-color: #e1e1e1;
+    border-radius: 4px;
+    height: 1.8rem;
+    border: 0px solid #564942;
+}
+
+.input-frist {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+
+form input:focus {
+    border: 1px solid #564942;
+}
+
+main form button {
+    background-color: #c3c3c3;
+    border: 0px solid #564942;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: #433a35;
+}
+
+main form button:focus {
+    border: 1px solid #564942;
+}
+
+#tier {
+    background-color: #e1e1e1;
+    padding: 0.2rem;
+    border: 0px solid #564942;
+    border-radius: 4px;
+    color: #433a35;
+    height: 1.8rem;
+    width: 7.9rem;
+}
+
+#tier:focus {
+    border: 1px solid #564942;
+}
+
+#tier option:hover {
+    background-color: #E6B9A6;
+}
+
+.select-box {
+    display: flex;
+    align-items: center;
+}
+
+.annoy-me {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+form-row:valid {
+    border: 1px solid #B5C18E;
+}
+
+/*  Footer Section */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #B7B7B7;
+}
+
+footer a {
+    text-decoration: None;
+    color: #564942;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    main form {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+        width: 100%;
+    }
+
+    .input-frist input {
+        width: 100%;
+    }
+
+    #tier {
+        width: 100%;
+    }
+
+    .annoy-me {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}

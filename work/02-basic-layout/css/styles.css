@@ -1,0 +1,87 @@
+/* General styling for body and homepage container */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#homepage {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 15px, auto, 15px;
+    gap: 0px;
+}
+
+/* Styling for the header and the primary navigation bar */
+header {
+    display: grid;
+    grid-column: span 2;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    background-color: plum;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 0;
+}
+
+.menu li a {
+    padding: 15px;
+}
+
+.menu li a:hover {
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration-color: white;
+}
+
+/* Styling for the local menu on the left */
+.local-menu {
+    display: flex;
+    grid-column: span 1;
+    background-color: pink;
+    padding: 10px;
+    border-right: 1px solid black;
+    flex-direction: column;
+}
+
+.local-menu ul {
+    list-style: none;
+}
+
+.local-menu ul li a {
+    display: block;
+    padding: 15px;
+    width: 100%;
+}
+
+.local-menu ul li a:hover {
+    background-color: plum;
+}
+
+/* Styling for the main on the right */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+    background-color: pink;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+
+/* Styling for the footer */
+footer {
+    display: flex;
+    grid-column: span 2;
+    width: 100%;
+    background-color: plum;
+    flex-basis: 10px;
+    padding: 15px;
+}

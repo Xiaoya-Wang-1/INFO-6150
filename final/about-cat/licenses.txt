@@ -1,0 +1,83 @@
+# licenses.txt
+# List of external resources used in this project, along with their sources and licenses.
+
+## Images
+1. Image: Siam_lilacpoint.png
+   Source: https://en.wikipedia.org/wiki/Siamese_cat#/media/File:Siam_lilacpoint.jpg
+   License: CC BY-SA 3.0
+
+2. Image: maine_coon.png
+   Source: https://unsplash.com/photos/a-grey-and-white-cat-sitting-in-a-cat-tree-OBza1T--_R4
+   License: Free  
+
+3. Image: persian.png
+   Source: https://unsplash.com/photos/a-white-and-brown-cat-walking-across-a-lush-green-field-Tdr0ke9enA4
+   License: Free
+
+4. Image: ragdoll.png
+   Source: https://unsplash.com/photos/a-brown-and-white-cat-sitting-on-top-of-a-bed-BSWeh_sSh7I
+   License: Free
+
+5. Image: british_shorthair.png
+   Source: https://unsplash.com/photos/russian-blue-cat-lying-on-brown-textile-8hj_0KqePuk
+   License: Free
+
+6. Image: tabby_cat.png
+   Source: https://unsplash.com/photos/brown-tabby-cat-on-wooden-beam-VvTVkc_p-eg
+   License: Free
+
+7. Image: cat-image-1.png
+   Source: https://unsplash.com/photos/brown-tabby-cat-7GX5aICb5i4
+   License: Free
+
+8. Image: cat-image-2.png
+   Source: https://unsplash.com/photos/white-and-brown-cat-eating-EyroEHwHoJU
+   License: Free
+
+9. Image: cat-image-3.png
+   Source: https://unsplash.com/photos/gray-cat-leaning-on-scratch-post-and-looking-on-hanged-fur-fish-1hBWrLIDSCc
+   License: Free
+
+10. Image: cat-image-4.png
+   Source: https://unsplash.com/photos/a-black-and-white-cat-playing-with-a-toy-hb1PmcNW3lE
+   License: Free
+
+11. Image: cat-image-5.png
+   Source: https://unsplash.com/photos/cat-sleeping-on-bed-pdALzg0yN-8
+   License: Free
+
+12. Image: cat-image-6.png
+   Source: https://unsplash.com/photos/person-holding-gray-tabby-cat-while-lying-on-bed-mAsKA0jFfeQ
+   License: Free
+
+13. Image: cat-image-7.png
+   Source: https://unsplash.com/photos/short-fur-black-cat-on-floor-pZnYZw_Gpbw
+   License: Free
+
+14. Image: welcome-image.jpg
+   Source: https://unsplash.com/photos/silver-imac-with-keyboard-and-mouse-n2M2SBQE6Iw
+   License: Free
+
+15. Image: rescue-cat-finds-forever-home.jpg
+   Source: https://unsplash.com/photos/a-cat-wearing-a-sunflower-costume-on-its-head-cQAoMJ2utDA
+   License: Free
+
+16. Image: shadow-community-hero.jpg
+   Source: https://unsplash.com/photos/close-up-photo-of-tabby-cat-cWOzOnSoh6Q
+   License: Free
+
+17. Image: luna-forever-home.jpg
+   Source: https://unsplash.com/photos/orange-and-white-tabby-cat-sitting-on-brown-wooden-table-in-kitchen-room-w2DsS-ZAP4U
+   License: Free
+
+18. Image: cat-therapy-seniors.jpg
+   Source: https://unsplash.com/photos/shallow-focus-photography-of-white-and-brown-cat-GtwiBmtJvaU
+   License: Free
+
+19. Image: mittens-leap-record.jpg
+   Source: https://unsplash.com/photos/tabby-cat-on-ledge-AL2-t0GrSko
+   License: Free
+
+20. Image: picasso-art-collection.jpg
+   Source: https://unsplash.com/photos/selective-focus-photo-of-brown-tabby-cat-w12NAMymqnk
+   License: Free

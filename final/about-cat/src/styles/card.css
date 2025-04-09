@@ -1,0 +1,30 @@
+.card {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 30rem;
+    margin: 1rem;
+    background-color: #ffffff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 1rem;      
+}
+
+.card-content h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card-content p {
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}

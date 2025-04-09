@@ -1,0 +1,56 @@
+.cat-habits {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.cat-section {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: max-content;
+  gap:1.5rem;
+  width: 100%;
+  padding: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  border: 0.1px solid rgba(0, 0, 0, 0.096);
+}
+
+.cat-section p{
+  line-height:2rem;
+}
+
+.cat-image {
+  width: 30rem;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+main p {
+  padding: 1rem;
+  text-align: left;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem; 
+  line-height: 2rem;
+}
+
+.question-section{
+  padding:2rem;
+}
+
+.questions{
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}

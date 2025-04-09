@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <h1>Registration</h1>
+    </header>
+
+    <main class="form-container">
+        <form id="registrationForm" action="/register" method="POST" novalidate>
+            <div class="form-item">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" class="text-input" value="Required">
+            </div>
+            <div class="error-message" id="nameError"></div>
+
+            <div class="form-item">
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" class="text-input" value="Required">
+            </div>
+            <div class="error-message" id="emailError"></div>
+
+            <div class="form-item">
+                <label for="confirmEmail">Confirm Email: </label>
+                <input type="text" id="confirmEmail" name="confirmEmail" class="text-input" value="Required">
+            </div>
+            <div class="error-message" id="confirmEmailError"></div>
+
+            <div class="form-item checkbox-group">
+                <label>
+                    Receive promotional emails <input type="checkbox" name="wants-spam">
+                </label>
+            </div>
+
+            <div class="form-item">
+                <label for="tier">Select Tier:</label>
+                <select id="tier" name="tier">
+                    <option class="option" value="basic">Basic</option>
+                    <option class="option" value="premium">Premium</option>
+                    <option class="option" value="vip">VIP</option>
+                </select>
+            </div>
+
+            <button class="submit" type="submit">Register</button>
+        </form>
+    </main>
+
+    <footer class="page-footer">
+        <p>Registration Form</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
